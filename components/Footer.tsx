@@ -56,7 +56,7 @@ export const Footer: React.FC<FooterProps> = ({ theme }) => {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs opacity-50 font-medium">
-          <p>© 2024 DigiFlow Inc. Optimized for n8n automations.</p>
+          <p>© {new Date().getFullYear()} DigiFlow Inc. Optimized for n8n automations.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-n8n-pink transition-colors">Security Audit</a>
             <a href="#" className="hover:text-n8n-pink transition-colors">Privacy Policy</a>
