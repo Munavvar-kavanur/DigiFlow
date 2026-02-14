@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# DigiFlow - Premium n8n Hosting
 
-# Run and deploy your AI Studio app
+DigiFlow is a high-performance managed hosting platform for n8n. Scale your automations without the headache of infrastructure management.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1s1A4Rrfv-6bav0-SzSHNlyTuwK-j339I
+- **1-Click Deploy**: Launch your dedicated n8n instance in seconds.
+- **Workflow Architect**: AI assistant to help you design complex n8n workflows.
+- **Security**: Military-grade encryption and dedicated firewalls.
+- **Performance**: AMD EPYC processors and NVMe drives for lightning-fast execution.
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+- Node.js (v18+)
+
+### Installation
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Configure Environment:
+   Create a `.env.local` file and add your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+3. Run locally:
+   ```bash
+   npm run dev
+   ```
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Animations**: GSAP
+- **AI**: Advanced LLM API
+- **Icons**: Lucide React

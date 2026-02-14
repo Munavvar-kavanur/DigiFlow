@@ -79,10 +79,10 @@ export const WorkflowAssistant: React.FC<WorkflowAssistantProps> = ({ theme }) =
         <textarea
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
-          placeholder="Example: Every morning, check Google Sheets and send high-priority leads to Discord."
+          placeholder="Example: Every morning, check a spreadsheet and send high-priority leads to Discord."
           className={`w-full h-32 p-6 rounded-2xl resize-none outline-none border transition-all ${theme === 'dark'
-              ? 'bg-n8n-dark border-white/10 focus:border-n8n-pink focus:ring-1 focus:ring-n8n-pink/50'
-              : 'bg-slate-50 border-slate-200 focus:border-n8n-pink focus:ring-1 focus:ring-n8n-pink/50'
+            ? 'bg-n8n-dark border-white/10 focus:border-n8n-pink focus:ring-1 focus:ring-n8n-pink/50'
+            : 'bg-slate-50 border-slate-200 focus:border-n8n-pink focus:ring-1 focus:ring-n8n-pink/50'
             }`}
         />
         <button
@@ -109,8 +109,8 @@ export const WorkflowAssistant: React.FC<WorkflowAssistantProps> = ({ theme }) =
           <div className="flex flex-wrap gap-3">
             {result.nodes.map((node, i) => (
               <div key={i} className={`px-4 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 border transition-colors ${theme === 'dark'
-                  ? 'bg-n8n-surface border-white/10 hover:border-n8n-pink/50'
-                  : 'bg-white border-slate-200 hover:border-n8n-pink/50'
+                ? 'bg-n8n-surface border-white/10 hover:border-n8n-pink/50'
+                : 'bg-white border-slate-200 hover:border-n8n-pink/50'
                 }`}>
                 <PlayCircle size={14} className="text-n8n-pink" />
                 {node}

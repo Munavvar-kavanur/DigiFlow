@@ -17,7 +17,7 @@ const templates = [
     nodes: 12,
     complexity: "Advanced",
     icon: <Bot size={24} className="text-n8n-pink" />,
-    description: "Automated multi-channel content engine using Gemini & OpenAI to turn 1 prompt into 5 social posts."
+    description: "Automated multi-channel content engine using advanced AI to turn 1 prompt into  social posts."
   },
   {
     title: "Lead Magnet Pro",
@@ -123,8 +123,8 @@ export const TemplateLibrary: React.FC<TemplateLibraryProps> = ({ theme }) => {
               onMouseMove={(e) => handleMouseMove(e, e.currentTarget)}
               onMouseLeave={(e) => handleMouseLeave(e.currentTarget)}
               className={`group relative p-8 rounded-[2.5rem] border transition-all duration-500 gsap-reveal preserve-3d overflow-hidden cursor-pointer ${theme === 'dark'
-                  ? 'bg-n8n-surface/50 border-white/10 hover:border-n8n-pink/40'
-                  : 'bg-white border-slate-200 shadow-sm hover:shadow-2xl hover:border-n8n-pink/30'
+                ? 'bg-n8n-surface/50 border-white/10 hover:border-n8n-pink/40'
+                : 'bg-white border-slate-200 shadow-sm hover:shadow-2xl hover:border-n8n-pink/30'
                 }`}
             >
               {/* Radial Mouse Glow */}
